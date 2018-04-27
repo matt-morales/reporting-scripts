@@ -5,8 +5,7 @@ import datetime
 import pandas as pd
 import json
 
-token = 'EAAAAL2uajO8BAOYBdjK2RRuGS1ZAsLv4pUvnLGTjWvdTZAIHVbhgohBCxxuLRvVrocRzF1' \
-        'CKGvzX4FMZBP5jSWeBJtSDULaN3ZBYGk1EsRq2MgqSDtWCU7DiYd9ExoCZCGRw8voDXvUOUPHXfSpPdElpbzyMZAOTEZD'
+token = my_token
 
 pd.options.display.float_format = '{:.0f}'.format
 df_campaigns = pd.read_excel('/Users/mmorale5/desktop/currently_running_campaigns.xlsx', sheet_name='Campaigns', header=0)
